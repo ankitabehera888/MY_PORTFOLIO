@@ -1,0 +1,234 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --bg-page: #F2E6D3;
+    --bg-card: #FAF3E7;
+    --bg-section: #EFE1CB;
+    --border-warm: #D8C8AE;
+    --text-primary: #191816;
+    --text-secondary: #565149;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  html, body {
+    background-color: #F2E6D3;
+    background-image: 
+      radial-gradient(
+        ellipse at 15% 10%,
+        rgba(255, 250, 240, 0.8) 0%,
+        transparent 45%
+      ),
+      radial-gradient(
+        ellipse at 85% 80%,
+        rgba(218, 194, 157, 0.22) 0%,
+        transparent 50%
+      );
+    background-attachment: fixed;
+    color: #191816;
+  }
+
+  ::selection {
+    background-color: #D4A338;
+    color: #191816;
+  }
+}
+
+/* Custom utility & editorial styles */
+.font-mono-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.clamp-hero {
+  font-size: clamp(2.6rem, 5vw, 5.2rem);
+  line-height: 1.02;
+  letter-spacing: -0.035em;
+}
+
+.clamp-hero-giant {
+  font-size: clamp(3.2rem, 8.2vw, 8.2rem);
+  line-height: 1.01;
+  letter-spacing: -0.035em;
+}
+
+.clamp-hero-editorial {
+  font-size: clamp(2.1rem, 4.3vw, 3.85rem);
+  line-height: 1.06;
+  letter-spacing: -0.03em;
+}
+
+.clamp-subhero {
+  font-size: clamp(1.8rem, 4vw, 3.8rem);
+  line-height: 0.96;
+  letter-spacing: -0.04em;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #A3A39D;
+  border-radius: 3px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+}
+
+/* Warm theme animated brand typography (1st animation) */
+@keyframes warmBrandShimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.brand-text-theme {
+  background: linear-gradient(
+    90deg,
+    #191816 0%,
+    #191816 25%,
+    #D4A338 50%,
+    #8C6320 65%,
+    #191816 85%,
+    #191816 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: warmBrandShimmer 6s ease-in-out infinite;
+}
+
+.dark .brand-text-theme {
+  background: linear-gradient(
+    90deg,
+    #F8FAFC 0%,
+    #F8FAFC 25%,
+    #FBBF24 50%,
+    #D4A338 65%,
+    #F8FAFC 85%,
+    #F8FAFC 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: warmBrandShimmer 6s ease-in-out infinite;
+}
+
+/* Hero Headline Dynamic Animations (1st animation) */
+@keyframes goldSheenSlide {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@keyframes scanBeam {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(250%);
+    opacity: 0;
+  }
+}
+
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-8px) scale(1.02);
+  }
+}
+
+.hero-gold-gradient {
+  background: linear-gradient(
+    115deg,
+    #B8860B 0%,
+    #D4A338 25%,
+    #FFF4D0 50%,
+    #D4A338 75%,
+    #A6730A 100%
+  );
+  background-size: 250% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: goldSheenSlide 5.5s ease-in-out infinite;
+}
+
+.dark .hero-gold-gradient {
+  background: linear-gradient(
+    115deg,
+    #D97706 0%,
+    #F59E0B 25%,
+    #FEF3C7 50%,
+    #FBBF24 75%,
+    #B45309 100%
+  );
+  background-size: 250% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: goldSheenSlide 5.5s ease-in-out infinite;
+}
+
+.hero-infinite-gradient {
+  background: linear-gradient(
+    90deg,
+    #B8860B 0%,
+    #D4A338 32%,
+    #FFF3CD 50%,
+    #D4A338 68%,
+    #A6730A 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: goldSheenSlide 6.5s ease-in-out infinite;
+}
+
+.dark .hero-infinite-gradient {
+  background: linear-gradient(
+    90deg,
+    #D97706 0%,
+    #F59E0B 32%,
+    #FEF3C7 50%,
+    #FBBF24 68%,
+    #B45309 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: goldSheenSlide 6.5s ease-in-out infinite;
+}
+
+.animate-scan-beam {
+  animation: scanBeam 3.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+.animate-float-gentle {
+  animation: floatGentle 6s ease-in-out infinite;
+}
