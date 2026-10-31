@@ -1,0 +1,7 @@
+# Robots.txt for Ankita Behera's Portfolio Website
+User-agent: *
+Allow: /
+
+# Sitemap Location (Will be updated once your production domain is confirmed)
+Sitemap: https://YOUR_PRODUCTION_DOMAIN_HERE/sitemap.xml
+

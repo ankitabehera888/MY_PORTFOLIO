@@ -187,9 +187,11 @@ export const Certifications: React.FC = () => {
                   >
                     <img
                       src={cert.image}
-                      alt={cert.title}
+                      alt={`Ankita Behera - ${cert.title} Credential Certificate issued by ${cert.issuer}`}
                       className="w-full h-full object-contain select-none transition-transform duration-300 group-hover/img:scale-[1.02]"
                       loading="lazy"
+                      width={800}
+                      height={600}
                     />
 
                     {/* Hover Click to Expand Overlay Badge */}
@@ -258,8 +260,9 @@ export const Certifications: React.FC = () => {
               </button>
               <img
                 src={modalImage}
-                alt="Certificate full view"
+                alt="Ankita Behera Credential Certificate Full View"
                 className="max-h-[82vh] w-auto max-w-full object-contain rounded-lg"
+                loading="lazy"
               />
             </div>
           </motion.div>

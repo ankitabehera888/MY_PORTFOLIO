@@ -133,7 +133,8 @@ export const Contact: React.FC = () => {
               href={PERSONAL_INFO.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="LinkedIn Profile"
+              aria-label="Ankita Behera on LinkedIn"
+              title="Connect with Ankita Behera on LinkedIn"
               className="w-12 h-12 rounded-full border border-[#D8C8AE] dark:border-slate-800 bg-[#FAF3E7] dark:bg-slate-900 text-[#191816] dark:text-slate-200 hover:bg-[#191816] hover:text-[#FAF3E7] dark:hover:bg-white dark:hover:text-slate-950 flex items-center justify-center transition-all duration-200 shadow-2xs hover:scale-110 active:scale-95"
             >
               <LinkedinIcon className="w-5 h-5" />
@@ -143,7 +144,8 @@ export const Contact: React.FC = () => {
               href={PERSONAL_INFO.github}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="GitHub Profile"
+              aria-label="Ankita Behera on GitHub"
+              title="View Ankita Behera's projects on GitHub"
               className="w-12 h-12 rounded-full border border-[#D8C8AE] dark:border-slate-800 bg-[#FAF3E7] dark:bg-slate-900 text-[#191816] dark:text-slate-200 hover:bg-[#191816] hover:text-[#FAF3E7] dark:hover:bg-white dark:hover:text-slate-950 flex items-center justify-center transition-all duration-200 shadow-2xs hover:scale-110 active:scale-95"
             >
               <GithubIcon className="w-5 h-5" />
@@ -151,7 +153,8 @@ export const Contact: React.FC = () => {
 
             <a
               href={`mailto:${PERSONAL_INFO.email}`}
-              aria-label="Email Ankita"
+              aria-label="Email Ankita Behera"
+              title="Send an email to Ankita Behera"
               className="w-12 h-12 rounded-full border border-[#D8C8AE] dark:border-slate-800 bg-[#FAF3E7] dark:bg-slate-900 text-[#191816] dark:text-slate-200 hover:bg-[#191816] hover:text-[#FAF3E7] dark:hover:bg-white dark:hover:text-slate-950 flex items-center justify-center transition-all duration-200 shadow-2xs hover:scale-110 active:scale-95"
             >
               <Mail className="w-5 h-5" />

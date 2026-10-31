@@ -152,6 +152,7 @@ export const Projects: React.FC = () => {
             href={PERSONAL_INFO.github}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Visit Ankita Behera's GitHub Profile (@ankitabehera888)"
             className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-[#191816] dark:bg-[#E5B842] text-[#FAF3E7] dark:text-slate-950 text-xs sm:text-sm font-bold tracking-tight hover:bg-[#2E2B27] hover:scale-105 active:scale-95 transition-all shadow-sm shrink-0"
           >
             <span>GITHUB @ankitabehera888</span>
@@ -217,6 +218,7 @@ const HorizontalProjectCard: React.FC<HorizontalProjectCardProps> = ({ project, 
           href={project.githubUrl}
           target="_blank"
           rel="noopener noreferrer"
+          aria-label={`View ${project.title} source code on GitHub`}
           className="inline-flex items-center gap-1.5 text-xs sm:text-[13px] font-mono-code font-semibold text-[#565149] dark:text-slate-400 hover:text-[#191816] dark:hover:text-[#E5B842] transition-colors group/link"
         >
           <span>View on GitHub</span>
@@ -226,6 +228,9 @@ const HorizontalProjectCard: React.FC<HorizontalProjectCardProps> = ({ project, 
         {project.liveDemoUrl && (
           <a
             href={project.liveDemoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Try live demo for ${project.title}`}
             className="inline-flex items-center gap-1.5 text-xs sm:text-[13px] font-mono-code font-semibold text-[#565149] dark:text-slate-400 hover:text-[#191816] dark:hover:text-[#E5B842] transition-colors group/link"
           >
             <span>Test it now</span>

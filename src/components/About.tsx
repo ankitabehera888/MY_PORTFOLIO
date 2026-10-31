@@ -33,9 +33,11 @@ export const About: React.FC = () => {
             <div className="relative w-full max-w-sm sm:max-w-md lg:max-w-none flex items-end justify-center">
               <img
                 src="/profile.png?v=4"
-                alt="Ankita Behera"
+                alt="Ankita Behera - AI & Machine Learning Systems Developer"
                 className="w-full max-h-[560px] lg:max-h-[620px] object-contain object-bottom select-none pointer-events-none"
                 loading="eager"
+                width={600}
+                height={800}
               />
             </div>
           </motion.div>
@@ -49,11 +51,11 @@ export const About: React.FC = () => {
               transition={{ duration: 0.7 }}
             >
               <p className="text-lg sm:text-xl text-[#191816] leading-relaxed font-normal mb-6">
-                I’m <strong className="font-bold text-[#191816]">Ankita Behera</strong>, a Computer Science and Engineering undergraduate at NIST University, passionate about <strong className="font-semibold text-[#191816]">Artificial Intelligence, Machine Learning, and Generative AI</strong>. I enjoy exploring new technologies, solving problems, and building practical applications through hands-on projects.
+                I’m <strong className="font-bold text-[#191816]">Ankita Behera</strong>, a Computer Science and Engineering undergraduate at NIST University, passionate about <strong className="font-semibold text-[#191816]">Artificial Intelligence, Machine Learning, Generative AI</strong>, and modern <strong className="font-semibold text-[#191816]">Software Development</strong>. With strong foundations in <strong className="font-semibold text-[#191816]">Python</strong> and autonomous agent systems, I enjoy designing and deploying practical software architectures that solve complex problems.
               </p>
 
               <p className="text-base sm:text-lg text-[#565149] leading-relaxed font-normal">
-                My work includes <strong className="font-semibold text-[#191816]">text classification, LLM-powered applications, and Retrieval-Augmented Generation (RAG) systems</strong>. I’ve also worked on a <strong className="font-semibold text-[#191816]">financial Agentic AI project</strong> focused on automating expense tracking and simplifying financial data management. I’m interested in building intelligent systems that combine automation, reliable data processing, and practical problem-solving to address <strong className="font-semibold text-emerald-700">real-world challenges</strong>.
+                My hands-on <strong className="font-semibold text-[#191816]">AI Projects</strong> span autonomous multi-agent systems, NLP text classification, LLM reasoning pipelines, and Retrieval-Augmented Generation (RAG) applications. Notably, I engineered a <strong className="font-semibold text-[#191816]">financial Agentic AI system</strong> coordinating specialized agents to synthesize real-time market telemetry into structured reports. I focus on building resilient software combining rigorous ML algorithms, low latency, and practical problem-solving to address <strong className="font-semibold text-emerald-700">real-world challenges</strong>.
               </p>
             </motion.div>
           </div>

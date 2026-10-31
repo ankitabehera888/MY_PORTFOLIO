@@ -347,6 +347,8 @@ export const KiboChat: React.FC = () => {
                     src="/kibo-avatar.png"
                     alt="Kibo Avatar"
                     className="w-full h-full object-cover"
+                    width={40}
+                    height={40}
                   />
                 </div>
 
@@ -409,6 +411,8 @@ export const KiboChat: React.FC = () => {
                           src="/kibo-avatar.png"
                           alt="Kibo"
                           className="w-full h-full object-cover"
+                          width={28}
+                          height={28}
                         />
                       </div>
                     )}
@@ -438,6 +442,8 @@ export const KiboChat: React.FC = () => {
                       src="/kibo-avatar.png"
                       alt="Kibo"
                       className="w-full h-full object-cover"
+                      width={28}
+                      height={28}
                     />
                   </div>
                   <div className="px-3.5 py-2.5 rounded-2xl rounded-tl-xs bg-[#FAF3E7] border border-[#D8C8AE]/90 shadow-sm flex items-center gap-1.5">

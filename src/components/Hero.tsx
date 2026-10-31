@@ -46,13 +46,15 @@ export const Hero: React.FC = () => {
       <div className="absolute inset-0 w-full h-full z-0 overflow-hidden select-none pointer-events-none">
         <img
           src={heroBg}
-          alt="Ankita Behera Hero Background"
+          alt="Ankita Behera - AI Engineer & ML Systems Developer Portfolio"
           className="w-full h-full object-cover object-[75%_center] sm:object-[70%_center] lg:object-center select-none pointer-events-none"
           style={{
             maskImage: 'linear-gradient(to bottom, black 0%, black 82%, rgba(0,0,0,0.6) 92%, transparent 100%)',
             WebkitMaskImage: 'linear-gradient(to bottom, black 0%, black 82%, rgba(0,0,0,0.6) 92%, transparent 100%)',
           }}
           loading="eager"
+          width={1920}
+          height={1080}
         />
 
         {/* Soft bottom blend to seamlessly merge into the page background */}
@@ -75,9 +77,21 @@ export const Hero: React.FC = () => {
           animate="visible"
           className="max-w-xl lg:max-w-2xl xl:max-w-[42rem] flex flex-col items-start"
         >
+          {/* Visible Editorial Identity & Role Pill for Personal-Name Search Visibility */}
+          <motion.div
+            variants={itemVariants}
+            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#FAF3E7]/90 border border-[#D8C8AE] text-xs sm:text-[13px] font-mono-code font-bold text-[#565149] uppercase tracking-wider mb-4 sm:mb-5 shadow-2xs backdrop-blur-xs"
+          >
+            <span className="w-2 h-2 rounded-full bg-[#D4A338] shadow-[0_0_8px_rgba(212,163,56,0.8)] animate-pulse" />
+            <span>Ankita Behera — AI Engineer &amp; ML Systems Developer</span>
+          </motion.div>
+
           {/* Main Hero Heading (Dynamic 3-Line Kinetic Editorial Typography) */}
           <div className="relative mb-6 sm:mb-8 select-none w-full">
             <h1 className="clamp-hero-editorial font-black text-[#191816] uppercase tracking-tight">
+              {/* Semantic Screen-Reader & Googlebot Identity */}
+              <span className="sr-only">Ankita Behera — AI/ML Engineer &amp; Software Developer Portfolio: </span>
+
               {/* Line 1: IDEAS ARE INFINITE. */}
               <div className="overflow-hidden py-0.5 sm:py-1">
                 <motion.div
