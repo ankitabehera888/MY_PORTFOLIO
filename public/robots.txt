@@ -2,6 +2,5 @@
 User-agent: *
 Allow: /
 
-# Sitemap Location (Will be updated once your production domain is confirmed)
-Sitemap: https://YOUR_PRODUCTION_DOMAIN_HERE/sitemap.xml
-
+# Sitemap Location
+Sitemap: https://my-portfolio-topaz-eight-w8h9gtw5oz.vercel.app/sitemap.xml
