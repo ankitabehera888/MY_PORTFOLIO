@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap Location
-Sitemap: https://my-portfolio-topaz-eight-w8h9gtw5oz.vercel.app/sitemap.xml
+Sitemap: https://ankitabehera888.vercel.app/sitemap.xml

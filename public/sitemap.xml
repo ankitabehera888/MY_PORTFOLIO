@@ -4,19 +4,19 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://my-portfolio-topaz-eight-w8h9gtw5oz.vercel.app/</loc>
+    <loc>https://ankitabehera888.vercel.app/</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://my-portfolio-topaz-eight-w8h9gtw5oz.vercel.app/resume/Ankita_Behera_Resume.pdf</loc>
+    <loc>https://ankitabehera888.vercel.app/resume/Ankita_Behera_Resume.pdf</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://my-portfolio-topaz-eight-w8h9gtw5oz.vercel.app/resume/Ankita_Behera_Extended_CV.pdf</loc>
+    <loc>https://ankitabehera888.vercel.app/resume/Ankita_Behera_Extended_CV.pdf</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

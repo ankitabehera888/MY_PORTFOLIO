@@ -1,7 +1,7 @@
 ✨ Ankita Behera — AI Engineer & ML Systems Developer
 A personal portfolio website showcasing my work across Artificial Intelligence, Machine Learning, Generative AI, NLP, Retrieval-Augmented Generation (RAG), and agentic systems. The site combines an editorial, warm-cream visual design with scroll-based motion and Kibo, an AI portfolio assistant that helps visitors explore my projects, skills, and certifications.
 <p align="center">
-  <a href="https://my-portfolio-topaz-eight-w8h9gtw5oz.vercel.app/"><strong>🌐 View Live Portfolio</strong></a> ·
+  <a href="https://ankitabehera888.vercel.app/"><strong>🌐 View Live Portfolio</strong></a> ·
   <a href="https://github.com/ankitabehera888/MY_PORTFOLIO"><strong>📂 Source Code</strong></a> ·
   <a href="https://www.linkedin.com/in/ankita-behera-327446400/"><strong>💼 LinkedIn</strong></a>
 </p>
@@ -57,7 +57,7 @@ Deploy to Vercel
 3. In Project Settings → Environment Variables, add OPENROUTER_API_KEY for the environments you intend to use.
 4. Redeploy after adding or changing environment variables.
 5. Open the production domain and test navigation, resume downloads, contact flow, and Kibo.
-Live site: my-portfolio-topaz-eight-w8h9gtw5oz.vercel.app
+Live site: ankitabehera888.vercel.app
 Available Scripts
 Command	Description
 npm run dev	Starts the Vite development server
@@ -75,6 +75,6 @@ License
 No explicit license has been added to this repository. Unless a LICENSE file is added, the code should not be assumed to be available for unrestricted reuse or redistribution.
 About
 Ankita Behera — Computer Science and Engineering undergraduate at NIST University, interested in applied AI/ML, Generative AI, NLP, RAG, and agentic systems.
-- Portfolio: https://my-portfolio-topaz-eight-w8h9gtw5oz.vercel.app/
+- Portfolio: https://ankitabehera888.vercel.app/
 - GitHub: https://github.com/ankitabehera888
 - LinkedIn: https://www.linkedin.com/in/ankita-behera-327446400/
